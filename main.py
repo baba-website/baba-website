@@ -301,5 +301,5 @@ def searched():
 
 if __name__ == '__main__':
     app.secret_key = 'Beni Anla Bana Anlat'
-    app.run(debug=true)
+    app.run(debug=False,host='0.0.0.0')
    
